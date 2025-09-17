@@ -87,9 +87,6 @@ const FriendDetail: React.FC = () => {
           </div>
           
           <div className="friend-detail-actions">
-            <Link to={`/edit-friend/${friend.id}`} className="edit-btn">
-              Edit Profile
-            </Link>
             <button 
               onClick={handleDelete} 
               className="delete-btn"
