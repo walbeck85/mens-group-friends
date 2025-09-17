@@ -82,16 +82,6 @@
   text-align: center;
 }
 
-.edit-btn {
-  background: #3498db;
-  color: white;
-}
-
-.edit-btn:hover {
-  background: #2980b9;
-  transform: translateY(-2px);
-}
-
 .delete-btn {
   background: #e74c3c;
   color: white;
