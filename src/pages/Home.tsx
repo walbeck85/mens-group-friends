@@ -71,8 +71,8 @@ const Home: React.FC = () => {
   return (
     <div className="home-container">
       <header className="home-header">
-        <h1>My Friends</h1>
-        <p>A collection of amazing people in my life</p>
+        <h1>Men's Group</h1>
+        <p>A collection of the amazing dudes in my men's group</p>
       </header>
 
       <div className="home-controls">
