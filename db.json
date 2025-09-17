@@ -3,26 +3,32 @@
     {
       "id": 1,
       "name": "Andy Spiro",
-      "photo": "https://tinyurl.com/yznv8jsz",
+      "photo": "https://i.imgur.com/bsf84oq.jpeg",
       "description": "Harem Conoisseur."
     },
     {
       "id": 2,
       "name": "Chad Steinglass",
-      "photo": "https://tinyurl.com/3zc6bcd6",
+      "photo": "https://i.imgur.com/XUonRDf.jpeg",
       "description": "Chad GPT & Staff Daddy."
     },
     {
       "id": 3,
       "name": "Felipe Baytelman",
-      "photo": "https://tinyurl.com/yc5wh6az",
+      "photo": "https://i.imgur.com/e3f7FmZ.jpeg",
       "description": "Tech Guru and Grill Daddy."
     },
     {
       "id": 4,
       "name": "Josh Buhler",
-      "photo": "https://tinyurl.com/4e6mszuh",
+      "photo": "https://i.imgur.com/tGcwOwi.jpeg",
       "description": "Partner by Day, Nightclub Owner by Night."
+    },
+    {
+      "id": 5,
+      "name": "Will Albeck",
+      "photo": "https://i.imgur.com/n9veGkc.jpeg",
+      "description": "Recently single, ladies."
     }
   ]
 }
