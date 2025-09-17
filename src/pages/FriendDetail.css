@@ -1,0 +1,188 @@
+.friend-detail-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.friend-detail-header {
+  margin-bottom: 30px;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.back-link:hover {
+  color: #2980b9;
+}
+
+.friend-detail-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.friend-detail-image {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.friend-detail-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.friend-detail-content {
+  padding: 40px;
+}
+
+.friend-detail-info {
+  margin-bottom: 30px;
+}
+
+.friend-detail-name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin: 0 0 20px 0;
+}
+
+.friend-detail-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+  margin: 0;
+}
+
+.friend-detail-actions {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.edit-btn, .delete-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.edit-btn {
+  background: #3498db;
+  color: white;
+}
+
+.edit-btn:hover {
+  background: #2980b9;
+  transform: translateY(-2px);
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+  transform: translateY(-2px);
+}
+
+.friend-detail-footer {
+  text-align: center;
+}
+
+.add-another-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #27ae60;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.add-another-btn:hover {
+  background: #229954;
+  transform: translateY(-2px);
+}
+
+.loading, .error {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.loading {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.error {
+  color: #e74c3c;
+}
+
+.error h2 {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+.error p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.back-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.back-btn:hover {
+  background: #2980b9;
+}
+
+@media (max-width: 768px) {
+  .friend-detail-container {
+    padding: 10px;
+  }
+  
+  .friend-detail-content {
+    padding: 30px 20px;
+  }
+  
+  .friend-detail-name {
+    font-size: 2rem;
+  }
+  
+  .friend-detail-image {
+    height: 300px;
+  }
+  
+  .friend-detail-actions {
+    flex-direction: column;
+  }
+  
+  .edit-btn, .delete-btn {
+    width: 100%;
+  }
+}

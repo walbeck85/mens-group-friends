@@ -1,0 +1,40 @@
+{
+  "friends": [
+    {
+      "id": 1,
+      "name": "Alex Johnson",
+      "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face",
+      "description": "Adventure enthusiast who loves hiking and rock climbing. Always planning the next outdoor expedition and sharing amazing stories from his travels."
+    },
+    {
+      "id": 2,
+      "name": "Marcus Williams",
+      "photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face",
+      "description": "Tech guru and coffee connoisseur. Can debug any code problem and knows all the best local coffee shops. Great at explaining complex tech concepts."
+    },
+    {
+      "id": 3,
+      "name": "David Chen",
+      "photo": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&h=300&fit=crop&crop=face",
+      "description": "Fitness coach and meal prep master. Helps everyone stay motivated with their health goals and always has the best nutrition advice."
+    },
+    {
+      "id": 4,
+      "name": "Jake Martinez",
+      "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=300&h=300&fit=crop&crop=face",
+      "description": "Artist and musician who brings creativity to everything. Can play multiple instruments and is always working on his next artistic project."
+    },
+    {
+      "id": 5,
+      "name": "Ryan O'Connor",
+      "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face",
+      "description": "Sports fanatic and trivia champion. Knows stats for every sport and is the go-to person for organizing game nights and sports viewing parties."
+    },
+    {
+      "id": 6,
+      "name": "Chris Thompson",
+      "photo": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=300&h=300&fit=crop&crop=face",
+      "description": "Chef and food blogger who creates amazing dishes. Always experimenting with new recipes and hosting dinner parties with incredible home-cooked meals."
+    }
+  ]
+}
