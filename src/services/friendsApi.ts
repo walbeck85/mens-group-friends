@@ -18,7 +18,18 @@ export const friendsApi = {
 
   // Add a new friend
   addFriend: async (friendData: FriendFormData): Promise<Friend> => {
-    const response = await axios.post(`${API_BASE_URL}/friends`, friendData);
+    // Get all friends first to determine the next ID
+    const allFriends = await friendsApi.getAllFriends();
+    const maxId = Math.max(...allFriends.map(friend => Number(friend.id)), 0);
+    const nextId = maxId + 1;
+    
+    // Create friend object with numeric ID
+    const friendWithId = {
+      ...friendData,
+      id: nextId
+    };
+    
+    const response = await axios.post(`${API_BASE_URL}/friends`, friendWithId);
     return response.data;
   },
 
